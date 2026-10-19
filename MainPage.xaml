@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobTechHW.MainPage"
+             BackgroundColor = "Black">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="app_logo.png.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a submarine number ten" />
+
+           
+                <Label 
+                Text="Programming Technologies"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <FlexLayout Wrap="Wrap" 
+                        JustifyContent="Center" 
+                        AlignItems="Center">
+
+
+            <Button Text="C#"
+                Margin="2"
+                BackgroundColor="#9333EA"
+                TextColor="White"
+                CornerRadius="8" />
+
+
+            <Button Text="Java"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8" />
+
+            <Button Text="Python"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8" />
+                
+            <Button Text="JavaScript"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8" />
+
+            <Button Text="SQL"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8"/>
+
+            <Button Text="HTML"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8"/>
+
+            <Button Text="CSS"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8"/>
+
+            <Button Text=".NET MAUI"
+                 Margin="2"
+                 BackgroundColor="#9333EA"
+                 TextColor="White"
+                 CornerRadius="8"/>   
+
+               
+            </FlexLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
